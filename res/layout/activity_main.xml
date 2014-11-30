@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:weightSum="80"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="26"
+        android:orientation="vertical"
+        android:weightSum="28" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="18"
+            android:fillViewport="true" >
+
+            <TextView
+                android:id="@+id/calculateField"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical|right"
+                android:overScrollMode="ifContentScrolls"
+                android:scrollHorizontally="true"
+                android:text=""
+                android:textColor="@color/black_orange"
+                android:textSize="35dp" >
+            </TextView>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:weightSum="4" >
+
+            <Button
+                android:id="@+id/btn_m_plus"
+                style="@android:style/Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/btn_margin"
+                android:layout_weight="1"
+                android:background="@drawable/btn_value"
+                android:text="M+"
+                android:textColor="@color/white_silver"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btn_m_minus"
+                style="@android:style/Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/btn_margin"
+                android:layout_weight="1"
+                android:background="@drawable/btn_value"
+                android:text="M-"
+                android:textColor="@color/white_silver"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btn_mrc"
+                style="@android:style/Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/btn_margin"
+                android:layout_weight="1"
+                android:background="@drawable/btn_value"
+                android:text="MR"
+                android:textColor="@color/white_silver"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btn_clean"
+                style="@android:style/Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/btn_margin"
+                android:layout_weight="1"
+                android:background="@drawable/btn_orange"
+                android:text="←"
+                android:textColor="@color/white_silver"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="54" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
