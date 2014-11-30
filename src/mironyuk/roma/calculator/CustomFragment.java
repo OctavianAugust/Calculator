@@ -87,14 +87,14 @@ public class CustomFragment extends Fragment implements OnClickListener {
 		switch (v.getId()) {
 		case R.id.btn_sin:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("sin(");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			MainActivity.getPager().setCurrentItem(0);
 			break;
 		case R.id.btn_cos:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("cos(");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			MainActivity.getPager().setCurrentItem(0);
@@ -102,70 +102,70 @@ public class CustomFragment extends Fragment implements OnClickListener {
 			break;
 		case R.id.btn_tan:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("tan(");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			MainActivity.getPager().setCurrentItem(0);
 			break;
 		case R.id.btn_ln:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("ln(");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			MainActivity.getPager().setCurrentItem(0);
 			break;
 		case R.id.btn_log:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("log(");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			MainActivity.getPager().setCurrentItem(0);
 			break;
 		case R.id.btn_factorial:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("!");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			MainActivity.getPager().setCurrentItem(0);
 			break;
 		case R.id.btn_pi:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("π");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			MainActivity.getPager().setCurrentItem(0);
 			break;
 		case R.id.btn_exp:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("e");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			MainActivity.getPager().setCurrentItem(0);
 			break;
 		case R.id.btn_involution:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("^");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			MainActivity.getPager().setCurrentItem(0);
 			break;
 		case R.id.btn_left_bracket:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("(");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			MainActivity.getPager().setCurrentItem(0);
 			break;
 		case R.id.btn_right_bracket:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation(")");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			MainActivity.getPager().setCurrentItem(0);
 			break;
 		case R.id.btn_sqrt:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("√");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			MainActivity.getPager().setCurrentItem(0);

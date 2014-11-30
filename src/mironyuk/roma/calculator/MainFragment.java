@@ -138,96 +138,96 @@ public class MainFragment extends Fragment implements OnClickListener {
 		switch (v.getId()) {
 		case R.id.btn_1:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("1");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			break;
 		case R.id.btn_2:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("2");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 
 			break;
 		case R.id.btn_3:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("3");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 
 			break;
 		case R.id.btn_4:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("4");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 
 			break;
 		case R.id.btn_5:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("5");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 
 			break;
 		case R.id.btn_6:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("6");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 
 			break;
 		case R.id.btn_7:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("7");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 
 			break;
 		case R.id.btn_8:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("8");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 
 			break;
 		case R.id.btn_9:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("9");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			break;
 		case R.id.btn_ziro:
 			CorrectInput.cleanLogic();
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			CorrectInput.inputValidation("0");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 
 			break;
 		case R.id.btn_point:
 			CorrectInput.inputValidation(".");
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			break;
 		case R.id.btn_plus:
 			CorrectInput.inputValidation("+");
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 
 			break;
 		case R.id.btn_minus:
 			CorrectInput.inputValidation("-");
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			break;
 		case R.id.btn_multiply:
 			CorrectInput.inputValidation("*");
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			break;
 		case R.id.btn_divide:
 			CorrectInput.inputValidation("/");
-			MainActivity.getBtn_clean().setText("←");
+			MainActivity.getBtn_clean().setText("<");
 			MainActivity.getText_output().setText(CorrectInput.getText());
 			break;
 		case R.id.btn_equally:
